@@ -10,7 +10,7 @@ namespace FileSharingService.Controllers
     {
         // GET: Upload
 
-       
+       [HttpPost]
         public ActionResult Upload()
         {
             return View();
