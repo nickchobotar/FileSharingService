@@ -9,12 +9,8 @@ namespace FileSharingService.Controllers
     public class UploadController : Controller
     {
         // GET: Upload
-Friends
-DIRECT MESSAGES
-Karmadilla
-jodev
-nikkollai
-#7614
+
+       
         public ActionResult Upload()
         {
             return View();
