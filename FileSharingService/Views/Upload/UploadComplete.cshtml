@@ -1,0 +1,11 @@
+﻿@model FileSharingService.ViewModels.UploadCompleteViewModel
+
+
+@{
+    ViewBag.Title = "UploadComplete";
+}
+
+<h2>UploadComplete</h2>
+
+@Model.fileID
+@Html.ActionLink("Download", "Download", "Download", new { fileID = @Model.fileID }, null  )
